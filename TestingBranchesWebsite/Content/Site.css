@@ -1,0 +1,154 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* ---------------- Login Page ------------------ */
+.login-form {
+    margin-top: 70px;
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+    padding: 0px;
+}
+
+.login-title {
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 10px;
+}
+
+#login-outcome {
+    width: 280px;
+    color: red;
+    margin-left: 25px;
+}
+
+#username, #password {
+    width: 100%;
+    border: none;
+    background-color: #e5e5e5;
+    padding: 15px 15px 15px 8px;
+    border-radius: 4px;
+    margin-left: 25px;
+
+    &:focus {
+      outline: none;
+    }
+}
+
+.login-btn {
+    margin-top: 50px;
+    width: 280px;
+    height: 45px;
+    background-color: #0083a0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 25px;
+
+    &:active {
+        background: #005c65;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.branch {
+    font-family: 'Quicksand', sans-serif;
+    margin: 70px 40px 30px;
+    padding: 10px 0px;
+    width: 190px;
+    height: 155px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+    display: inline-block;
+}
+
+.branch-divider {
+    margin-top: 0px;
+    padding: 0px;
+    width: 100%;
+    border-color: #dddddd;
+    box-shadow: 0px 1px 5px rgba(191,247,255,.25);
+}
+
+#branch-status {
+    margin: 0 auto;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff7c7c;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #ff4b4b 0 -1px 9px, #ff7c7c 0 2px 12px; /*default red*/
+}
+
+.branch-details {
+    padding: 5px 0px;
+    width: 70px;
+    margin: 20px 5px;
+    background-color: #a1a1a1;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    &:active {
+        background: #989898;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.branch-run {
+    padding: 5px 0px;
+    width: 70px;
+    margin: 20px 5px;
+    background-color: #5affae;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    &:active {
+        background: #00fa96;
+    }
+    &:focus {
+        outline: none;
+    }
+}
