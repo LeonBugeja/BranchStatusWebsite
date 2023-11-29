@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<div class="container login-form">
+    <form onsubmit="return false">
+        <p class="container login-title">Login</p>
+        <br /> 
+        <p id="login-outcome"></p>
+        <input id="username" autofocus placeholder="Username">
+        <br /> <br />
+        <input id="password" type="password" placeholder="Password">
+        <br />
+        <button class="container login-btn" onclick="login()">Login</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="~/Scripts/MainJavascript.js"></script>
