@@ -6,7 +6,6 @@ using System.Data;
 using System.Security.Cryptography;
 using System.Text;
 using System.IO;
-using Microsoft.AspNet.SignalR;
 
 public class DataController : Controller
 {
